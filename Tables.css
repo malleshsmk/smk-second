@@ -1,0 +1,55 @@
+
+
+h1{
+	color:white;
+	background-color:black;
+	border:1px solid red;
+	text-align:center;
+}
+
+h1:hover{
+	background-color:blue;
+	color:yellow;
+}
+
+table{
+	font-family:ariel;
+	width:80%;
+	text-align:center;
+	border-collapse:collapse;
+	box-shadow:10px 10px 10px #dddddd;
+	border:2px solid #black;
+	margin-left:10%;
+}
+
+td,th{
+	border:1px solid;
+	padding:20px;
+}
+
+th{
+	background-color:purple;
+	color:white;
+}
+
+th:hover{
+	background-color:blue;
+	transition:scale(1);
+}
+
+tr:nth-child(even){
+	background-color:#dddddd;								
+}
+
+tr:nth-child(even):hover{
+	background-color:yellow;
+	transition:scale(1);
+	border:1px solid;
+}
+
+tr:nth-child(odd):hover{
+	background-color:red;
+}
+
+
+
